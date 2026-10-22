@@ -1,225 +1,135 @@
 <script lang="ts">
   import { SlideToggle } from '@skeletonlabs/skeleton';
-
   import Map from '$lib/components/Map.svelte';
-  import { romanNumerals } from '$lib/helpers';
+  import type { PPMGeoJSONFeatureCollection } from '$lib/types';
 
-  import type { PPMGeoJSONFeatureCollection, PPMItem } from '$lib/types';
+  type SearchItem = {
+    id: string;
+    imageURL: string;
+    caption_en: string;
+    volume: number;
+    page: number;
+    rank: number;
+    image_similarity: number;
+    caption_similarity: number;
+    included_by: string;
+  };
 
-  let items: PPMItem[] = [];
-  let query: string;
-  let vectorType: string;
-  let errorMessage: string;
-  let numResults: number;
-  let geojson: PPMGeoJSONFeatureCollection = { type: 'FeatureCollection', features: [] };
-  let showRegios: boolean = true;
-  let itemsLoading: boolean = false;
-  let genaiResponse: string = '';
-  let llmResponseLoading: boolean = false;
+  let items: SearchItem[] = [];
+  let query = '';
+  let imageMinimumSimilarity = 0.22;
+  let captionMinimumSimilarity = 0.7;
+  let errorMessage = '';
+  let showRegios = true;
+  let itemsLoading = false;
+  let hasSearched = false;
+  const geojson: PPMGeoJSONFeatureCollection = { type: 'FeatureCollection', features: [] };
 
   const search = async () => {
+    if (!query.trim()) return;
     itemsLoading = true;
-    llmResponseLoading = true;
-    genaiResponse = '';
+    errorMessage = '';
+    hasSearched = true;
+
     try {
       const response = await fetch('/api/search', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ query, numResults, vectorType })
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query, imageMinimumSimilarity, captionMinimumSimilarity })
       });
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
       const data = await response.json();
+      if (!response.ok) throw new Error(data.error || 'Search failed.');
       items = data.items;
-
-      if (items.length === 0) {
-        throw new Error('No items found');
-      }
-
-      errorMessage = '';
-      geojson.features = [];
-      items.forEach((item) => {
-        if (!item.location.geojson) return;
-        const room = item.location.geojson.features[3];
-        if (room) {
-          const existingRoom = geojson.features.find(
-            (feature) => feature.id === room.properties.title
-          );
-          if (existingRoom) {
-            existingRoom.properties.ppmItemIDs.push(item.id);
-            existingRoom.properties.ppmItemIDs.sort();
-          } else {
-            geojson.features.push(room);
-            room.properties.ppmItemIDs = [item.id];
-          }
-        }
-      });
-
-      fetchLLMResponse();
-    } catch (err) {
-      console.error(err);
-      errorMessage = 'Failed to fetch search items. Please try again.';
+    } catch (error) {
+      console.error(error);
+      errorMessage = error instanceof Error ? error.message : 'Search failed. Please try again.';
+      items = [];
     } finally {
       itemsLoading = false;
-    }
-  };
-
-  const fetchLLMResponse = async () => {
-    try {
-      const llmResponse = await fetch('/api/llm', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ query, items })
-      });
-      if (!llmResponse.ok) {
-        throw new Error('Network response was not ok');
-      }
-      const llmData = await llmResponse.json();
-      genaiResponse = llmData.llmResponse;
-    } catch (err) {
-      console.error(err);
-      errorMessage = 'Failed to fetch LLM response. Please try again.';
-    } finally {
-      llmResponseLoading = false;
     }
   };
 </script>
 
 <main class="container mx-auto p-6">
-  <div class="grid h-screen grid-cols-5">
-    <div class="col-span-2 border-r border-primary-500 p-5">
-      <div class="mb-5 flex space-x-4">
-        <label class="mb-2 block flex-1">
-          <span>Vector Type</span>
-          <select class="select mt-1 block w-full" bind:value={vectorType}>
-            <option value="captionVector" selected>Caption</option>
-            <option value="imageVector">Image</option>
-          </select>
-        </label>
-        <label class="mb-2 block flex-1">
-          <span>Number of Results</span>
-          <select class="select mt-1 block w-full" bind:value={numResults}>
-            <option value="5" selected>5</option>
-            <option value="10">10</option>
-            <option value="20">20</option>
-          </select>
-        </label>
-      </div>
-      <div class="mb-5 flex space-x-4">
+  <div class="grid min-h-[calc(100vh-8rem)] grid-cols-1 gap-6 lg:grid-cols-5">
+    <section class="flex min-h-0 flex-col border-r border-primary-500 p-5 lg:col-span-2">
+      <h1 class="mb-4 text-2xl font-bold">Search the sample collection</h1>
+      <p class="mb-5 text-sm opacity-80">
+        Search 350 linked Pompeii image and caption pairs with OpenCLIP ViT-B/32. A pair appears
+        when its image or caption meets its similarity threshold.
+      </p>
+
+      <label class="mb-2 block">
+        <span>Text query</span>
         <input
-          class="flex-3 input mb-2 block h-[40px] w-full p-2 p-4"
+          class="input mt-1 block w-full"
           type="text"
           bind:value={query}
-          placeholder="Enter search query"
-          on:keydown={(event) => {
-            if (event.key === 'Enter') search();
-          }}
+          placeholder="Describe an image or scene"
+          on:keydown={(event) => event.key === 'Enter' && search()}
         />
-        <button
-          type="button"
-          class="variant-filled-secondary btn h-[40px] flex-1 text-white"
-          data-sveltekit-preload-data="hover"
-          on:click={search}>Search</button
-        >
+      </label>
+      <div class="mb-4 grid grid-cols-2 gap-4">
+        <label class="block text-sm">
+          <span>Image minimum similarity: {imageMinimumSimilarity.toFixed(2)}</span>
+          <input class="mt-2 block w-full" type="range" min="0" max="1" step="0.01" bind:value={imageMinimumSimilarity} />
+        </label>
+        <label class="block text-sm">
+          <span>Caption minimum similarity: {captionMinimumSimilarity.toFixed(2)}</span>
+          <input class="mt-2 block w-full" type="range" min="0" max="1" step="0.01" bind:value={captionMinimumSimilarity} />
+        </label>
       </div>
-      <div class="h-[calc(100vh-200px)] overflow-y-auto">
-        {#if errorMessage}
-          <div class="mb-5 text-red-500">{errorMessage}</div>
+      <button
+        type="button"
+        class="variant-filled-secondary btn mb-5 w-full text-white"
+        disabled={itemsLoading || !query.trim()}
+        on:click={search}
+      >
+        {itemsLoading ? 'Searching…' : 'Search'}
+      </button>
+
+      {#if errorMessage}
+        <p class="mb-4 text-red-500">{errorMessage}</p>
+      {/if}
+      <div class="min-h-0 flex-1 space-y-5 overflow-y-auto">
+        {#if !itemsLoading && hasSearched && !errorMessage && items.length === 0}
+          <p>No image or caption pairs met those thresholds.</p>
         {/if}
-        <div class="space-y-10 mt-5 mb-5">
-          {#if itemsLoading}
-            <div class="flex h-full items-center justify-center">
-              <svg
-                aria-hidden="true"
-                class="h-8 w-8 animate-spin fill-secondary-500 text-gray-500 dark:text-gray-600"
-                viewBox="0 0 100 101"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
-                  fill="currentFill"
-                />
-              </svg>
-              <span class="sr-only">Loading...</span>
+        {#each items as item}
+          <article class="card variant-ghost-tertiary mx-auto w-[95%] p-4">
+            <header class="flex justify-center">
+              <img class="max-h-72 max-w-full object-contain" src={item.imageURL} alt={item.id} />
+            </header>
+            <div class="space-y-3 p-3">
+              <h2 class="font-bold">
+                Volume {item.volume}, Page {item.page} (Image {item.id.split('_')[5]})
+              </h2>
+              <p>{item.caption_en}</p>
+              <p class="text-sm opacity-80">
+                Image similarity {item.image_similarity.toFixed(3)} · Caption similarity
+                {item.caption_similarity.toFixed(3)} · Matched by {item.included_by}
+              </p>
             </div>
-          {:else}
-            {#each items as item}
-              <a
-                class="card variant-ghost-tertiary card-hover mx-auto block w-[90%] p-4"
-                href={`/item/${item.id}`}
-              >
-                <header class="flex justify-center">
-                  <img class="h-full bg-black/50 object-cover" src={item.imageURL} alt={item.id} />
-                </header>
-                <div class="space-y-4 p-4">
-                  <h6 class="font-bold">
-                    Volume {item.volume}, Page {item.page} (Image {item.id.split('_')[5]})
-                  </h6>
-                  <article>{item.caption_en}</article>
-                  <footer class="currentColor text-sm">
-                    <i>
-                      Regio {romanNumerals[item.location.regio]}, Insula {item.location.insula},
-                      Property {item.location.property}, Room {item.location.room || 'N/A'}
-                    </i>
-                  </footer>
-                </div>
-              </a>
-            {/each}
-          {/if}
-        </div>
+          </article>
+        {/each}
       </div>
-    </div>
-    <div class="col-span-3 flex flex-col p-5">
+    </section>
+
+    <section class="flex flex-col p-5 lg:col-span-3">
       <SlideToggle
-        name="slider-medium"
+        name="show-regios"
         bind:checked={showRegios}
         active="bg-secondary-500"
         size="sm"
       >
         Show Regios
       </SlideToggle>
-      <div class="mt-4 flex-1">
-        <Map {geojson} center={[14.4884, 40.75103]} zoom={14.5} showMarker {showRegios} />
+      <div class="mt-4 min-h-80 flex-1">
+        <Map {geojson} center={[14.4884, 40.75103]} zoom={14.5} {showRegios} />
       </div>
-      <div class="relative mt-4 h-[30%]">
-        {#if llmResponseLoading}
-          <div class="absolute inset-0 flex items-center justify-center">
-            <svg
-              aria-hidden="true"
-              class="h-8 w-8 animate-spin fill-tertiary-500 text-gray-500 dark:text-gray-600"
-              viewBox="0 0 100 101"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
-                fill="currentColor"
-              />
-              <path
-                d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
-                fill="currentFill"
-              />
-            </svg>
-            <span class="sr-only">Loading...</span>
-          </div>
-        {/if}
-        <textarea
-          class="textarea h-full w-full resize-none p-4"
-          rows="4"
-          bind:value={genaiResponse}
-          readonly
-        ></textarea>
-      </div>
-    </div>
+      <p class="mt-3 text-sm opacity-75">
+        The sample metadata has no location geometry, so results are not highlighted on the map yet.
+      </p>
+    </section>
   </div>
 </main>
