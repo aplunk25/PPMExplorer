@@ -1,0 +1,43 @@
+Current workflow:
+- Download the query .jsons if missing in data/queries
+- Run extract_random to pull out 10 random entries per query.
+	- Generates .csv saving ID, PATH, CAPTION, QUERYID
+	- Saves to data/random_samples.csv
+- Run download_images to automatically download images from the extracted entries
+	- Saved images go to data/images
+- Run generate_embeddings to process the images and captions in the current .csv
+	- Embeddings save to embeddings/random_samples
+- Run verify_embeddings to analyze the results.
+	- Verification report saves to embeddings/random_samples/similarity_report.csv
+	- Caption specific reporting saves to embeddings/random_samples/caption_rank_report.csv
+
+
+
+To do:
+- Clean up reporting files. Probably save to one, and move embeddings & reports to data folder
+- Figure out enhancement options for similarity, or are we fine w/ current?
+- Download the real files from Box
+	- Figure out automatic caption assignment since different structure.
+- Figure out data privacy concerns. Are we okay to continue using OpenAI's CLIP?
+- Get raw vector data into .csv formats
+
+
+Needs:
+- All PPMX images (HQ, pngs) (LQ, jpgs, Blob?) (Likely sourced from Box & Blob)
+- All PPMX captions (Rip from current codebase somewhere?)
+- Image -> Caption pairing guide (Should have, might require jpg -> png conversion)
+
+Next Steps (Meeting Notes):
+- Compile a larger dataset (Aiming 1500-3500 for even broader testing).
+- Work on querying live data set to judge model effectiveness
+	- Figure out the next steps on filtering results & data / Model training necessity
+
+
+Dashboard: (Not included in this package)
+py -m streamlit run visualization.py
+
+Others:
+py download_images.py
+py extract_random.py data/queries/ppmx_ai-vision-vectors_query_result-*.json --output data/random_samples.csv
+py generate_embeddings.py
+py verify_embeddings.py
