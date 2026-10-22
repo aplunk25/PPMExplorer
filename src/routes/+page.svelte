@@ -1,7 +1,7 @@
 <script lang="ts">
   import { SlideToggle } from '@skeletonlabs/skeleton';
   import Map from '$lib/components/Map.svelte';
-  import type { PPMGeoJSONFeatureCollection } from '$lib/types';
+  import type { PPMGeoJSONFeatureCollection, ResultMarker } from '$lib/types';
 
   type SearchItem = {
     id: string;
@@ -13,6 +13,7 @@
     image_similarity: number;
     caption_similarity: number;
     included_by: string;
+    location: { name: string; scope: string; lat: number; lon: number } | null;
   };
 
   let items: SearchItem[] = [];
@@ -21,9 +22,24 @@
   let captionMinimumSimilarity = 0.7;
   let errorMessage = '';
   let showRegios = true;
+  let showSegmentation = true;
   let itemsLoading = false;
   let hasSearched = false;
   const geojson: PPMGeoJSONFeatureCollection = { type: 'FeatureCollection', features: [] };
+
+  const itemLabel = (item: SearchItem) =>
+    `Volume ${item.volume}, Page ${item.page} (Image ${item.id.split('_')[5]})`;
+
+  // One marker per location; results from the same room share it
+  $: resultMarkers = Object.values(
+    items.reduce<Record<string, ResultMarker>>((markers, item) => {
+      if (!item.location) return markers;
+      const { name, lat, lon } = item.location;
+      markers[name] ??= { name, lngLat: [lon, lat], items: [] };
+      markers[name].items.push({ id: item.id, label: itemLabel(item) });
+      return markers;
+    }, {})
+  );
 
   const search = async () => {
     if (!query.trim()) return;
@@ -51,7 +67,7 @@
 </script>
 
 <main class="container mx-auto p-6">
-  <div class="grid min-h-[calc(100vh-8rem)] grid-cols-1 gap-6 lg:grid-cols-5">
+  <div class="grid grid-cols-1 gap-6 lg:h-[calc(100vh-8rem)] lg:grid-cols-5 lg:grid-rows-1">
     <section class="flex min-h-0 flex-col border-r border-primary-500 p-5 lg:col-span-2">
       <h1 class="mb-4 text-2xl font-bold">Search the sample collection</h1>
       <p class="mb-5 text-sm opacity-80">
@@ -72,11 +88,25 @@
       <div class="mb-4 grid grid-cols-2 gap-4">
         <label class="block text-sm">
           <span>Image minimum similarity: {imageMinimumSimilarity.toFixed(2)}</span>
-          <input class="mt-2 block w-full" type="range" min="0" max="1" step="0.01" bind:value={imageMinimumSimilarity} />
+          <input
+            class="mt-2 block w-full"
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            bind:value={imageMinimumSimilarity}
+          />
         </label>
         <label class="block text-sm">
           <span>Caption minimum similarity: {captionMinimumSimilarity.toFixed(2)}</span>
-          <input class="mt-2 block w-full" type="range" min="0" max="1" step="0.01" bind:value={captionMinimumSimilarity} />
+          <input
+            class="mt-2 block w-full"
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            bind:value={captionMinimumSimilarity}
+          />
         </label>
       </div>
       <button
@@ -96,14 +126,21 @@
           <p>No image or caption pairs met those thresholds.</p>
         {/if}
         {#each items as item}
-          <article class="card variant-ghost-tertiary mx-auto w-[95%] p-4">
+          <article id={`result-${item.id}`} class="card variant-ghost-tertiary mx-auto w-[95%] p-4">
             <header class="flex justify-center">
               <img class="max-h-72 max-w-full object-contain" src={item.imageURL} alt={item.id} />
             </header>
             <div class="space-y-3 p-3">
               <h2 class="font-bold">
-                Volume {item.volume}, Page {item.page} (Image {item.id.split('_')[5]})
+                {itemLabel(item)}
               </h2>
+              {#if item.location}
+                <p class="text-sm opacity-80">
+                  {item.location.name} · {item.location.lat.toFixed(6)}, {item.location.lon.toFixed(
+                    6
+                  )}
+                </p>
+              {/if}
               <p>{item.caption_en}</p>
               <p class="text-sm opacity-80">
                 Image similarity {item.image_similarity.toFixed(3)} · Caption similarity
@@ -115,21 +152,33 @@
       </div>
     </section>
 
-    <section class="flex flex-col p-5 lg:col-span-3">
+    <section class="flex min-h-0 flex-col p-5 lg:col-span-3">
+      <SlideToggle name="show-regios" bind:checked={showRegios} active="bg-secondary-500" size="sm">
+        Show Regios
+      </SlideToggle>
       <SlideToggle
-        name="show-regios"
-        bind:checked={showRegios}
+        name="show-segmentation"
+        bind:checked={showSegmentation}
         active="bg-secondary-500"
         size="sm"
       >
-        Show Regios
+        Show Segmented Rooms
       </SlideToggle>
       <div class="mt-4 min-h-80 flex-1">
-        <Map {geojson} center={[14.4884, 40.75103]} zoom={14.5} {showRegios} />
+        <Map
+          {geojson}
+          center={[14.4884, 40.75103]}
+          zoom={14.5}
+          {showRegios}
+          {showSegmentation}
+          {resultMarkers}
+        />
       </div>
-      <p class="mt-3 text-sm opacity-75">
-        The sample metadata has no location geometry, so results are not highlighted on the map yet.
-      </p>
+      {#if resultMarkers.length}
+        <p class="mt-3 text-sm opacity-75">
+          {items.length} results at {resultMarkers.length} locations. Click a marker to see its images.
+        </p>
+      {/if}
     </section>
   </div>
 </main>

@@ -21,6 +21,13 @@ export type PPMGeoJSONFeature = {
   id: string;
 };
 
+// Search results that share a location, shown as one marker on the map
+export type ResultMarker = {
+  name: string;
+  lngLat: [number, number];
+  items: { id: string; label: string }[];
+};
+
 export type PPMItem = {
   id: string;
   imageURL: string;

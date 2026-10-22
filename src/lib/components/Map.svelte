@@ -12,17 +12,29 @@
     RasterTileSource,
     RasterLayer
   } from 'svelte-maplibre';
-  import type { LngLatLike } from 'maplibre-gl';
+  import type { ExpressionSpecification, LngLatLike } from 'maplibre-gl';
   import tailwindColors from 'tailwindcss/colors';
 
   import { urnToTitle, regios } from '$lib/helpers';
-  import type { PPMGeoJSONFeatureCollection } from '$lib/types';
+  import type { PPMGeoJSONFeatureCollection, ResultMarker } from '$lib/types';
 
   export let geojson: PPMGeoJSONFeatureCollection;
   export let center: LngLatLike;
   export let zoom: number;
   export let showMarker: boolean = false;
   export let showRegios: boolean = false;
+  export let showSegmentation: boolean = false;
+  export let resultMarkers: ResultMarker[] = [];
+
+  // Trimmed export of pompeii_segmentation/v3/rooms_v3_wgs84.geojson (see export_web.py)
+  const segmentationURL = '/data/pompeii_rooms_v3.geojson';
+  const segmentationColor: ExpressionSpecification = [
+    'match',
+    ['get', 'node_class'],
+    'street',
+    tailwindColors.slate[400],
+    tailwindColors.amber[500]
+  ];
 
   const colorMap: { [key in 'blue' | 'green' | 'yellow' | 'red']: string } = {
     blue: tailwindColors.blue[500],
@@ -67,6 +79,23 @@
     />
   </RasterTileSource>
 
+  {#if showSegmentation}
+    <GeoJSON data={segmentationURL}>
+      <FillLayer
+        paint={{
+          'fill-color': segmentationColor,
+          'fill-opacity': 0.25
+        }}
+      />
+      <LineLayer
+        paint={{
+          'line-color': segmentationColor,
+          'line-width': ['interpolate', ['linear'], ['zoom'], 14, 0.3, 18, 1.5]
+        }}
+      />
+    </GeoJSON>
+  {/if}
+
   {#if showRegios}
     <GeoJSON data={regios}>
       <FillLayer
@@ -83,6 +112,29 @@
       />
     </GeoJSON>
   {/if}
+  {#each resultMarkers as marker (marker.name)}
+    <Marker lngLat={marker.lngLat}>
+      <div class="rounded-full bg-primary-500 px-2 py-1 text-xs font-bold text-white shadow">
+        {marker.items.length}
+      </div>
+      <Popup offset={[0, -10]}>
+        <div class="text-lg font-bold text-primary-500">{marker.name}</div>
+        <div class="mb-2 text-xs opacity-75">
+          {marker.lngLat[1].toFixed(6)}, {marker.lngLat[0].toFixed(6)}
+        </div>
+        <ul class="list-inside list-disc space-y-1">
+          {#each marker.items as item}
+            <li class="text-sm">
+              <a href={`#result-${item.id}`} class="text-tertiary-600 hover:text-tertiary-700">
+                {item.label}
+              </a>
+            </li>
+          {/each}
+        </ul>
+      </Popup>
+    </Marker>
+  {/each}
+
   {#each geojson.features as feature}
     {#if feature}
       <GeoJSON data={feature}>

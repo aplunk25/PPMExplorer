@@ -1,0 +1,2102 @@
+{
+ "Volume_01_Page_0133_image_1": {
+  "name": "Regio 1, Insula 4, Property 5, Room 35",
+  "scope": "room",
+  "lat": 40.7497385,
+  "lon": 14.4891181
+ },
+ "Volume_01_Page_0156_image_2": {
+  "name": "Regio 1, Insula 4, Property 5, Room 23",
+  "scope": "room",
+  "lat": 40.7498858,
+  "lon": 14.4891078
+ },
+ "Volume_01_Page_0171_image_1": {
+  "name": "Regio 1, Insula 4, Property 5, Room 47",
+  "scope": "room",
+  "lat": 40.7500446,
+  "lon": 14.4886762
+ },
+ "Volume_01_Page_0229_image_2": {
+  "name": "Regio 1, Insula 6",
+  "scope": "insula",
+  "lat": 40.7501255,
+  "lon": 14.4893665
+ },
+ "Volume_01_Page_0288_image_1": {
+  "name": "Regio 1, Insula 6, Property 4, Room c",
+  "scope": "room",
+  "lat": 40.7503838,
+  "lon": 14.4892769
+ },
+ "Volume_01_Page_0272_image_3": {
+  "name": "Regio 1, Insula 6",
+  "scope": "insula",
+  "lat": 40.7501255,
+  "lon": 14.4893665
+ },
+ "Volume_01_Page_0155_image_1": {
+  "name": "Regio 1, Insula 4, Property 5, Room 21",
+  "scope": "room",
+  "lat": 40.7498487,
+  "lon": 14.4890457
+ },
+ "Volume_01_Page_0067_image_2": {
+  "name": "Regio 1, Insula 3, Property 3, Room g",
+  "scope": "room",
+  "lat": 40.7491947,
+  "lon": 14.4892113
+ },
+ "Volume_01_Page_0226_image_3": {
+  "name": "Regio 1, Insula 6",
+  "scope": "insula",
+  "lat": 40.7501255,
+  "lon": 14.4893665
+ },
+ "Volume_01_Page_0054_image_1": {
+  "name": "Regio 1, Insula 2, Property 24",
+  "scope": "property",
+  "lat": 40.7489555,
+  "lon": 14.4899696
+ },
+ "Volume_03_Page_1024_image_2": {
+  "name": "Regio 5, Insula 4, Property a, Room 10",
+  "scope": "room",
+  "lat": 40.7529259,
+  "lon": 14.487978
+ },
+ "Volume_03_Page_0901_image_1": {
+  "name": "Regio 5, Insula 3, Property 6, Room d",
+  "scope": "room",
+  "lat": 40.752434,
+  "lon": 14.4876567
+ },
+ "Volume_03_Page_1057_image_1": {
+  "name": "Regio 5, Insula 4, Property 6, Room c",
+  "scope": "room",
+  "lat": 40.7526563,
+  "lon": 14.488263
+ },
+ "Volume_03_Page_0856_image_1": {
+  "name": "Regio 5, Insula 2, Property 15, Room c",
+  "scope": "room",
+  "lat": 40.7521524,
+  "lon": 14.4872677
+ },
+ "Volume_03_Page_1072_image_1": {
+  "name": "Regio 5, Insula 5, Property 3, Room d",
+  "scope": "room",
+  "lat": 40.7528668,
+  "lon": 14.4884458
+ },
+ "Volume_03_Page_0981_image_1": {
+  "name": "Regio 5, Insula 4, Property a, Room 2",
+  "scope": "room",
+  "lat": 40.7528061,
+  "lon": 14.4878131
+ },
+ "Volume_03_Page_1025_image_2": {
+  "name": "Regio 5, Insula 4, Property a, Room 12",
+  "scope": "room",
+  "lat": 40.7528282,
+  "lon": 14.4879651
+ },
+ "Volume_03_Page_0895_image_1": {
+  "name": "Regio 5, Insula 3, Property 4, Room n",
+  "scope": "room",
+  "lat": 40.7525301,
+  "lon": 14.4875078
+ },
+ "Volume_03_Page_0917_image_1": {
+  "name": "Regio 5, Insula 3, Property 8, Room 11",
+  "scope": "room",
+  "lat": 40.7524851,
+  "lon": 14.4878005
+ },
+ "Volume_03_Page_0841_image_1": {
+  "name": "Regio 5, Insula 2, Property 10, Room q",
+  "scope": "room",
+  "lat": 40.7522173,
+  "lon": 14.4869711
+ },
+ "Volume_04_Page_0233_image_2": {
+  "name": "Regio 6, Insula 2, Property 22, Room 2",
+  "scope": "room",
+  "lat": 40.7518688,
+  "lon": 14.4822946
+ },
+ "Volume_04_Page_0022_image_2": {
+  "name": "Regio 6, Insula 1, Property 7, Room 29",
+  "scope": "room",
+  "lat": 40.7518307,
+  "lon": 14.48189
+ },
+ "Volume_04_Page_0123_image_2": {
+  "name": "Regio 6, Insula 2, Property 4, Room 29",
+  "scope": "room",
+  "lat": 40.7511097,
+  "lon": 14.4826503
+ },
+ "Volume_04_Page_0098_image_2": {
+  "name": "Regio 6, Insula 2, Property 4, Room 10",
+  "scope": "room",
+  "lat": 40.7511518,
+  "lon": 14.4825938
+ },
+ "Volume_04_Page_0130_image_1": {
+  "name": "Regio 6, Insula 2, Property 4, Room 32",
+  "scope": "room",
+  "lat": 40.7510874,
+  "lon": 14.4827556
+ },
+ "Volume_04_Page_0171_image_2": {
+  "name": "Regio 6, Insula 2, Property 14, Room 2",
+  "scope": "room",
+  "lat": 40.7516715,
+  "lon": 14.482162
+ },
+ "Volume_04_Page_0084_image_3": {
+  "name": "Regio 6, Insula 1, Property 10, Room 6e",
+  "scope": "room",
+  "lat": 40.7515731,
+  "lon": 14.4817825
+ },
+ "Volume_04_Page_0244_image_2": {
+  "name": "Regio 6, Insula 2, Property 22, Room 7",
+  "scope": "room",
+  "lat": 40.7518061,
+  "lon": 14.4821532
+ },
+ "Volume_04_Page_0135_image_1": {
+  "name": "Regio 6, Insula 2, Property 4, Room 33",
+  "scope": "room",
+  "lat": 40.7510673,
+  "lon": 14.4828171
+ },
+ "Volume_04_Page_0031_image_2": {
+  "name": "Regio 6, Insula 1, Property 7, Room 39",
+  "scope": "room",
+  "lat": 40.7519231,
+  "lon": 14.48168
+ },
+ "Volume_04_Page_0435_image_2": {
+  "name": "Regio 6, Insula 7, Property 19, Room 2",
+  "scope": "room",
+  "lat": 40.7519162,
+  "lon": 14.4832343
+ },
+ "Volume_04_Page_0429_image_2": {
+  "name": "Regio 6, Insula 7, Property 18, Room 14",
+  "scope": "room",
+  "lat": 40.7517831,
+  "lon": 14.4830789
+ },
+ "Volume_04_Page_0451_image_1": {
+  "name": "Regio 6, Insula 7, Property 20, Room 2",
+  "scope": "room",
+  "lat": 40.7520458,
+  "lon": 14.4831437
+ },
+ "Volume_04_Page_0557_image_3": {
+  "name": "Regio 6, Insula 8",
+  "scope": "insula",
+  "lat": 40.750956,
+  "lon": 14.4837418
+ },
+ "Volume_04_Page_0426_image_1": {
+  "name": "Regio 6, Insula 7, Property 18, Room 13",
+  "scope": "room",
+  "lat": 40.7517777,
+  "lon": 14.4831295
+ },
+ "Volume_04_Page_0450_image_1": {
+  "name": "Regio 6, Insula 7, Property 20, Room 2",
+  "scope": "room",
+  "lat": 40.7520458,
+  "lon": 14.4831437
+ },
+ "Volume_04_Page_0370_image_2": {
+  "name": "Regio 6, Insula 7, Property 3, Room 13",
+  "scope": "room",
+  "lat": 40.7515728,
+  "lon": 14.4831977
+ },
+ "Volume_04_Page_0348_image_3": {
+  "name": "Regio 6, Insula 5, Property 16, Room 5",
+  "scope": "room",
+  "lat": 40.7513514,
+  "lon": 14.4832298
+ },
+ "Volume_04_Page_0394_image_2": {
+  "name": "Regio 6, Insula 7",
+  "scope": "insula",
+  "lat": 40.7519343,
+  "lon": 14.4831327
+ },
+ "Volume_04_Page_0427_image_1": {
+  "name": "Regio 6, Insula 7, Property 18, Room 13",
+  "scope": "room",
+  "lat": 40.7517777,
+  "lon": 14.4831295
+ },
+ "Volume_04_Page_0594_image_1": {
+  "name": "Regio 6, Insula 8",
+  "scope": "insula",
+  "lat": 40.750956,
+  "lon": 14.4837418
+ },
+ "Volume_04_Page_0781_image_1": {
+  "name": "Regio 6, Insula 9, Property 2, Room 27",
+  "scope": "room",
+  "lat": 40.7525026,
+  "lon": 14.4834437
+ },
+ "Volume_04_Page_0739_image_1": {
+  "name": "Regio 6, Insula 9, Property 2, Room 24",
+  "scope": "room",
+  "lat": 40.7523871,
+  "lon": 14.4835162
+ },
+ "Volume_04_Page_0691_image_1": {
+  "name": "Regio 6, Insula 9, Property 2, Room 13",
+  "scope": "room",
+  "lat": 40.7521747,
+  "lon": 14.4834447
+ },
+ "Volume_04_Page_0703_image_1": {
+  "name": "Regio 6, Insula 9, Property 2, Room 16",
+  "scope": "room",
+  "lat": 40.7523488,
+  "lon": 14.4833493
+ },
+ "Volume_04_Page_0737_image_2": {
+  "name": "Regio 6, Insula 9, Property 2, Room 24",
+  "scope": "room",
+  "lat": 40.7523871,
+  "lon": 14.4835162
+ },
+ "Volume_04_Page_0664_image_4": {
+  "name": "Regio 6, Insula 9, Property 2, Room 1",
+  "scope": "room",
+  "lat": 40.7521897,
+  "lon": 14.4833258
+ },
+ "Volume_04_Page_0590_image_1": {
+  "name": "Regio 6, Insula 8",
+  "scope": "insula",
+  "lat": 40.750956,
+  "lon": 14.4837418
+ },
+ "Volume_04_Page_0592_image_4": {
+  "name": "Regio 6, Insula 8",
+  "scope": "insula",
+  "lat": 40.750956,
+  "lon": 14.4837418
+ },
+ "Volume_04_Page_0745_image_1": {
+  "name": "Regio 6, Insula 9, Property 2, Room 24",
+  "scope": "room",
+  "lat": 40.7523871,
+  "lon": 14.4835162
+ },
+ "Volume_04_Page_0960_image_3": {
+  "name": "Regio 6, Insula 9, Property 6, Room 53",
+  "scope": "room",
+  "lat": 40.7516936,
+  "lon": 14.483747
+ },
+ "Volume_04_Page_0870_image_1": {
+  "name": "Regio 6, Insula 9, Property 6, Room 33",
+  "scope": "room",
+  "lat": 40.7517784,
+  "lon": 14.483597
+ },
+ "Volume_04_Page_1065_image_2": {
+  "name": "Regio 6, Insula 10, Property 7, Room 19",
+  "scope": "room",
+  "lat": 40.7512795,
+  "lon": 14.4842073
+ },
+ "Volume_04_Page_0948_image_1": {
+  "name": "Regio 6, Insula 9, Property 6",
+  "scope": "property",
+  "lat": 40.7517975,
+  "lon": 14.4837702
+ },
+ "Volume_04_Page_1034_image_3": {
+  "name": "Regio 6, Insula 10, Property 2, Room 2",
+  "scope": "room",
+  "lat": 40.7514383,
+  "lon": 14.4839054
+ },
+ "Volume_04_Page_1059_image_2": {
+  "name": "Regio 6, Insula 10, Property 7, Room 5",
+  "scope": "room",
+  "lat": 40.7512419,
+  "lon": 14.4841148
+ },
+ "Volume_04_Page_0989_image_1": {
+  "name": "Regio 6, Insula 9, Property 6, Room 53",
+  "scope": "room",
+  "lat": 40.7516936,
+  "lon": 14.483747
+ },
+ "Volume_04_Page_1043_image_1": {
+  "name": "Regio 6, Insula 10, Property 2, Room 12",
+  "scope": "room",
+  "lat": 40.7515382,
+  "lon": 14.4839944
+ },
+ "Volume_04_Page_0933_image_3": {
+  "name": "Regio 6, Insula 9, Property 6, Room 44",
+  "scope": "room",
+  "lat": 40.7518984,
+  "lon": 14.4837165
+ },
+ "Volume_04_Page_1081_image_4": {
+  "name": "Regio 6, Insula 10, Property 11, Room 2",
+  "scope": "room",
+  "lat": 40.7508502,
+  "lon": 14.4842458
+ },
+ "Volume_05_Page_0244_image_1": {
+  "name": "Regio 6, Insula 14, Property 8, Room 6",
+  "scope": "room",
+  "lat": 40.7514355,
+  "lon": 14.4856157
+ },
+ "Volume_05_Page_0306_image_2": {
+  "name": "Regio 6, Insula 14, Property 20, Room r",
+  "scope": "room",
+  "lat": 40.7516494,
+  "lon": 14.4855278
+ },
+ "Volume_05_Page_0280_image_2": {
+  "name": "Regio 6, Insula 14",
+  "scope": "insula",
+  "lat": 40.7517314,
+  "lon": 14.4854511
+ },
+ "Volume_05_Page_0253_image_1": {
+  "name": "Regio 6, Insula 14, Property 12, Room 11",
+  "scope": "room",
+  "lat": 40.7515287,
+  "lon": 14.4856707
+ },
+ "Volume_05_Page_0089_image_3": {
+  "name": "Regio 6, Insula 12, Property 2, Room 4",
+  "scope": "room",
+  "lat": 40.7510372,
+  "lon": 14.484873
+ },
+ "Volume_05_Page_0238_image_2": {
+  "name": "Regio 6, Insula 13, Property 19, Room s",
+  "scope": "room",
+  "lat": 40.7516127,
+  "lon": 14.4849983
+ },
+ "Volume_05_Page_0181_image_1": {
+  "name": "Regio 6, Insula 13, Property 13, Room a",
+  "scope": "room",
+  "lat": 40.751784,
+  "lon": 14.4849488
+ },
+ "Volume_05_Page_0030_image_2": {
+  "name": "Regio 6, Insula 11",
+  "scope": "insula",
+  "lat": 40.7522935,
+  "lon": 14.4839305
+ },
+ "Volume_05_Page_0123_image_2": {
+  "name": "Regio 6, Insula 12, Property 2, Room 37",
+  "scope": "room",
+  "lat": 40.7513389,
+  "lon": 14.4844447
+ },
+ "Volume_05_Page_0257_image_1": {
+  "name": "Regio 6, Insula 14, Property 12, Room b",
+  "scope": "room",
+  "lat": 40.7516225,
+  "lon": 14.4856871
+ },
+ "Volume_05_Page_0412_image_3": {
+  "name": "Regio 6, Insula 14, Property 42, Room 3",
+  "scope": "room",
+  "lat": 40.7515079,
+  "lon": 14.4852124
+ },
+ "Volume_05_Page_0525_image_1": {
+  "name": "Regio 6, Insula 15, Property 1, Room m",
+  "scope": "room",
+  "lat": 40.7519861,
+  "lon": 14.4845173
+ },
+ "Volume_05_Page_0335_image_1": {
+  "name": "Regio 6, Insula 14, Property 25, Room d",
+  "scope": "room",
+  "lat": 40.7519414,
+  "lon": 14.4854644
+ },
+ "Volume_05_Page_0507_image_2": {
+  "name": "Regio 6, Insula 15, Property 1, Room 1",
+  "scope": "room",
+  "lat": 40.7519487,
+  "lon": 14.4847498
+ },
+ "Volume_05_Page_0406_image_2": {
+  "name": "Regio 6, Insula 14",
+  "scope": "insula",
+  "lat": 40.7517314,
+  "lon": 14.4854511
+ },
+ "Volume_05_Page_0591_image_1": {
+  "name": "Regio 6, Insula 15, Property 5, Room h",
+  "scope": "room",
+  "lat": 40.7523169,
+  "lon": 14.4843764
+ },
+ "Volume_05_Page_0512_image_3": {
+  "name": "Regio 6, Insula 15, Property 1, Room 1",
+  "scope": "room",
+  "lat": 40.7519487,
+  "lon": 14.4847498
+ },
+ "Volume_05_Page_0592_image_3": {
+  "name": "Regio 6, Insula 15, Property 5, Room h",
+  "scope": "room",
+  "lat": 40.7523169,
+  "lon": 14.4843764
+ },
+ "Volume_05_Page_0383_image_1": {
+  "name": "Regio 6, Insula 14, Property 38, Room o",
+  "scope": "room",
+  "lat": 40.7519442,
+  "lon": 14.4853479
+ },
+ "Volume_05_Page_0323_image_1": {
+  "name": "Regio 6, Insula 14",
+  "scope": "insula",
+  "lat": 40.7517314,
+  "lon": 14.4854511
+ },
+ "Volume_05_Page_0734_image_2": {
+  "name": "Regio 6, Insula 16, Property 7, Room e",
+  "scope": "room",
+  "lat": 40.7523432,
+  "lon": 14.4850353
+ },
+ "Volume_05_Page_0753_image_2": {
+  "name": "Regio 6, Insula 16, Property 7, Room f",
+  "scope": "room",
+  "lat": 40.7522173,
+  "lon": 14.4850043
+ },
+ "Volume_05_Page_0617_image_1": {
+  "name": "Regio 6, Insula 15, Property 5, Room x",
+  "scope": "room",
+  "lat": 40.7524979,
+  "lon": 14.484194
+ },
+ "Volume_05_Page_0840_image_4": {
+  "name": "Regio 6, Insula 16, Property 7, Room r",
+  "scope": "room",
+  "lat": 40.7522033,
+  "lon": 14.4848432
+ },
+ "Volume_05_Page_0895_image_2": {
+  "name": "Regio 6, Insula 16, Property 26, Room b",
+  "scope": "room",
+  "lat": 40.752929,
+  "lon": 14.4844127
+ },
+ "Volume_05_Page_0702_image_2": {
+  "name": "Regio 6, Insula 15, Property 23, Room a",
+  "scope": "room",
+  "lat": 40.7526678,
+  "lon": 14.4840802
+ },
+ "Volume_05_Page_0843_image_1": {
+  "name": "Regio 6, Insula 16, Property 7, Room r",
+  "scope": "room",
+  "lat": 40.7522033,
+  "lon": 14.4848432
+ },
+ "Volume_05_Page_0777_image_1": {
+  "name": "Regio 6, Insula 16, Property 7, Room f",
+  "scope": "room",
+  "lat": 40.7522173,
+  "lon": 14.4850043
+ },
+ "Volume_05_Page_0864_image_1": {
+  "name": "Regio 6, Insula 16, Property 15, Room f",
+  "scope": "room",
+  "lat": 40.7526226,
+  "lon": 14.4848201
+ },
+ "Volume_05_Page_0762_image_2": {
+  "name": "Regio 6, Insula 16, Property 7, Room f",
+  "scope": "room",
+  "lat": 40.7522173,
+  "lon": 14.4850043
+ },
+ "Volume_06_Page_0176_image_2": {
+  "name": "Regio 7, Insula 1, Property 8, Room g",
+  "scope": "room",
+  "lat": 40.7499633,
+  "lon": 14.487262
+ },
+ "Volume_06_Page_0033_image_2": {
+  "name": "Regio 6",
+  "scope": "regio",
+  "lat": 40.7516839,
+  "lon": 14.4835302
+ },
+ "Volume_06_Page_0080_image_1": {
+  "name": "Regio 6",
+  "scope": "regio",
+  "lat": 40.7516839,
+  "lon": 14.4835302
+ },
+ "Volume_06_Page_0130_image_2": {
+  "name": "Regio 6, Insula 17",
+  "scope": "insula",
+  "lat": 40.7499446,
+  "lon": 14.4826412
+ },
+ "Volume_05_Page_0972_image_1": {
+  "name": "Regio 6, Insula 16, Property 32, Room h",
+  "scope": "room",
+  "lat": 40.75242,
+  "lon": 14.4847647
+ },
+ "Volume_06_Page_0041_image_2": {
+  "name": "Regio 6, Insula 17, Property 41, Room 20",
+  "scope": "room",
+  "lat": 40.7503249,
+  "lon": 14.4827938
+ },
+ "Volume_05_Page_0913_image_2": {
+  "name": "Regio 6, Insula 16, Property 26, Room j",
+  "scope": "room",
+  "lat": 40.7529457,
+  "lon": 14.4844844
+ },
+ "Volume_06_Page_0138_image_3": {
+  "name": "Regio 6",
+  "scope": "regio",
+  "lat": 40.7516839,
+  "lon": 14.4835302
+ },
+ "Volume_05_Page_0967_image_3": {
+  "name": "Regio 6, Insula 16, Property 32, Room c",
+  "scope": "room",
+  "lat": 40.7523871,
+  "lon": 14.4846711
+ },
+ "Volume_05_Page_0979_image_2": {
+  "name": "Regio 6, Insula 16, Property 35, Room g",
+  "scope": "room",
+  "lat": 40.7523765,
+  "lon": 14.4848137
+ },
+ "Volume_06_Page_0446_image_2": {
+  "name": "Regio 7, Insula 1, Property 40, Room 17",
+  "scope": "room",
+  "lat": 40.7503731,
+  "lon": 14.4868624
+ },
+ "Volume_06_Page_0195_image_2": {
+  "name": "Regio 7, Insula 1, Property 8, Room 2",
+  "scope": "room",
+  "lat": 40.7499339,
+  "lon": 14.4878441
+ },
+ "Volume_06_Page_0318_image_2": {
+  "name": "Regio 7, Insula 1, Property 25, Room 24",
+  "scope": "room",
+  "lat": 40.7504608,
+  "lon": 14.4872661
+ },
+ "Volume_06_Page_0261_image_1": {
+  "name": "Regio 7, Insula 1, Property 25, Room 10",
+  "scope": "room",
+  "lat": 40.750233,
+  "lon": 14.4870872
+ },
+ "Volume_06_Page_0400_image_2": {
+  "name": "Regio 7, Insula 1, Property 40, Room 5",
+  "scope": "room",
+  "lat": 40.7504587,
+  "lon": 14.4866383
+ },
+ "Volume_06_Page_0343_image_1": {
+  "name": "Regio 7, Insula 1, Property 25, Room 33",
+  "scope": "room",
+  "lat": 40.7503613,
+  "lon": 14.4871215
+ },
+ "Volume_06_Page_0396_image_4": {
+  "name": "Regio 7, Insula 1, Property 40, Room 4",
+  "scope": "room",
+  "lat": 40.7504833,
+  "lon": 14.4866125
+ },
+ "Volume_06_Page_0335_image_1": {
+  "name": "Regio 7, Insula 1, Property 25, Room 31",
+  "scope": "room",
+  "lat": 40.7504167,
+  "lon": 14.4871797
+ },
+ "Volume_06_Page_0448_image_1": {
+  "name": "Regio 7, Insula 1, Property 40, Room 17",
+  "scope": "room",
+  "lat": 40.7503731,
+  "lon": 14.4868624
+ },
+ "Volume_06_Page_0280_image_2": {
+  "name": "Regio 7, Insula 1, Property 25, Room 10",
+  "scope": "room",
+  "lat": 40.750233,
+  "lon": 14.4870872
+ },
+ "Volume_01_Page_0393_image_1": {
+  "name": "Regio 1, Insula 6, Property 11, Room 4",
+  "scope": "room",
+  "lat": 40.7501215,
+  "lon": 14.4889507
+ },
+ "Volume_01_Page_0581_image_2": {
+  "name": "Regio 1, Insula 7, Property 5, Room b",
+  "scope": "room",
+  "lat": 40.7506069,
+  "lon": 14.489746
+ },
+ "Volume_01_Page_0472_image_1": {
+  "name": "Regio 1, Insula 6, Property 15, Room h",
+  "scope": "room",
+  "lat": 40.750042,
+  "lon": 14.4893275
+ },
+ "Volume_01_Page_0338_image_2": {
+  "name": "Regio 1, Insula 6, Property 7, Room e",
+  "scope": "room",
+  "lat": 40.7502492,
+  "lon": 14.4891497
+ },
+ "Volume_01_Page_0485_image_1": {
+  "name": "Regio 1, Insula 7, Property 1, Room 2",
+  "scope": "room",
+  "lat": 40.7504846,
+  "lon": 14.489518
+ },
+ "Volume_01_Page_0466_image_1": {
+  "name": "Regio 1, Insula 6, Property 15, Room g",
+  "scope": "room",
+  "lat": 40.7500147,
+  "lon": 14.4893047
+ },
+ "Volume_01_Page_0395_image_2": {
+  "name": "Regio 1, Insula 6, Property 11, Room 16",
+  "scope": "room",
+  "lat": 40.7499678,
+  "lon": 14.4891941
+ },
+ "Volume_01_Page_0464_image_1": {
+  "name": "Regio 1, Insula 6, Property 15, Room f",
+  "scope": "room",
+  "lat": 40.7500492,
+  "lon": 14.4894073
+ },
+ "Volume_01_Page_0596_image_1": {
+  "name": "Regio 1, Insula 7, Property 7, Room b",
+  "scope": "room",
+  "lat": 40.750571,
+  "lon": 14.4898222
+ },
+ "Volume_01_Page_0403_image_1": {
+  "name": "Regio 1, Insula 6, Property 13, Room 5",
+  "scope": "room",
+  "lat": 40.7499356,
+  "lon": 14.4893729
+ },
+ "Volume_06_Page_0706_image_2": {
+  "name": "Regio 7, Insula 2, Property 25, Room k",
+  "scope": "room",
+  "lat": 40.7506787,
+  "lon": 14.4858634
+ },
+ "Volume_06_Page_0638_image_1": {
+  "name": "Regio 7, Insula 2, Property 20, Room q",
+  "scope": "room",
+  "lat": 40.7507642,
+  "lon": 14.4859042
+ },
+ "Volume_06_Page_0498_image_1": {
+  "name": "Regio 7, Insula 2, Property 11, Room a",
+  "scope": "room",
+  "lat": 40.75106,
+  "lon": 14.4866424
+ },
+ "Volume_06_Page_0762_image_1": {
+  "name": "Regio 7, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507696,
+  "lon": 14.4862369
+ },
+ "Volume_06_Page_0696_image_2": {
+  "name": "Regio 7, Insula 2, Property 25, Room k",
+  "scope": "room",
+  "lat": 40.7506787,
+  "lon": 14.4858634
+ },
+ "Volume_06_Page_0670_image_2": {
+  "name": "Regio 7, Insula 2, Property 23, Room e",
+  "scope": "room",
+  "lat": 40.7507433,
+  "lon": 14.4856192
+ },
+ "Volume_06_Page_0512_image_2": {
+  "name": "Regio 7, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507696,
+  "lon": 14.4862369
+ },
+ "Volume_06_Page_0751_image_1": {
+  "name": "Regio 7, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507696,
+  "lon": 14.4862369
+ },
+ "Volume_06_Page_0518_image_2": {
+  "name": "Regio 7, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507696,
+  "lon": 14.4862369
+ },
+ "Volume_06_Page_0545_image_1": {
+  "name": "Regio 7, Insula 2, Property 16, Room f",
+  "scope": "room",
+  "lat": 40.750978,
+  "lon": 14.4861678
+ },
+ "Volume_06_Page_0843_image_1": {
+  "name": "Regio 7, Insula 3, Property 4, Room d",
+  "scope": "room",
+  "lat": 40.7512368,
+  "lon": 14.4856944
+ },
+ "Volume_06_Page_0855_image_2": {
+  "name": "Regio 7, Insula 3",
+  "scope": "insula",
+  "lat": 40.7512236,
+  "lon": 14.4859691
+ },
+ "Volume_06_Page_0912_image_2": {
+  "name": "Regio 7, Insula 3, Property 29, Room i",
+  "scope": "room",
+  "lat": 40.7511174,
+  "lon": 14.4859059
+ },
+ "Volume_06_Page_1030_image_2": {
+  "name": "Regio 7, Insula 4, Property 31, Room 22",
+  "scope": "room",
+  "lat": 40.7506567,
+  "lon": 14.485241
+ },
+ "Volume_06_Page_0987_image_1": {
+  "name": "Regio 7, Insula 4",
+  "scope": "insula",
+  "lat": 40.7506487,
+  "lon": 14.4850286
+ },
+ "Volume_06_Page_1074_image_2": {
+  "name": "Regio 7, Insula 4, Property 31, Room 29",
+  "scope": "room",
+  "lat": 40.7507744,
+  "lon": 14.4854272
+ },
+ "Volume_06_Page_0811_image_2": {
+  "name": "Regio 7, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507696,
+  "lon": 14.4862369
+ },
+ "Volume_06_Page_0877_image_2": {
+  "name": "Regio 7, Insula 3",
+  "scope": "insula",
+  "lat": 40.7512236,
+  "lon": 14.4859691
+ },
+ "Volume_06_Page_0783_image_4": {
+  "name": "Regio 7, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507696,
+  "lon": 14.4862369
+ },
+ "Volume_06_Page_0977_image_2": {
+  "name": "Regio 7, Insula 3",
+  "scope": "insula",
+  "lat": 40.7512236,
+  "lon": 14.4859691
+ },
+ "Volume_07_Page_0029_image_2": {
+  "name": "Regio 7, Insula 4, Property 48, Room 7",
+  "scope": "room",
+  "lat": 40.7510947,
+  "lon": 14.4854935
+ },
+ "Volume_07_Page_0219_image_1": {
+  "name": "Regio 7, Insula 6, Property 38, Room 29",
+  "scope": "room",
+  "lat": 40.7499334,
+  "lon": 14.4834511
+ },
+ "Volume_06_Page_1086_image_1": {
+  "name": "Regio 7, Insula 4, Property 31, Room 31",
+  "scope": "room",
+  "lat": 40.7507125,
+  "lon": 14.4854864
+ },
+ "Volume_07_Page_0147_image_1": {
+  "name": "Regio 7, Insula 4, Property 62, Room 4",
+  "scope": "room",
+  "lat": 40.7507366,
+  "lon": 14.484579
+ },
+ "Volume_07_Page_0003_image_1": {
+  "name": "Regio 7, Insula 4, Property 42",
+  "scope": "property",
+  "lat": 40.7509178,
+  "lon": 14.485559
+ },
+ "Volume_07_Page_0146_image_2": {
+  "name": "Regio 7, Insula 4, Property 62, Room 4",
+  "scope": "room",
+  "lat": 40.7507366,
+  "lon": 14.484579
+ },
+ "Volume_07_Page_0250_image_2": {
+  "name": "Regio 7, Insula 7, Property 5, Room r",
+  "scope": "room",
+  "lat": 40.749074,
+  "lon": 14.4839413
+ },
+ "Volume_07_Page_0275_image_2": {
+  "name": "Regio 7, Insula 7, Property 10, Room t",
+  "scope": "room",
+  "lat": 40.7489959,
+  "lon": 14.4837938
+ },
+ "Volume_07_Page_0240_image_2": {
+  "name": "Regio 7, Insula 7",
+  "scope": "insula",
+  "lat": 40.7492354,
+  "lon": 14.4841834
+ },
+ "Volume_07_Page_0206_image_3": {
+  "name": "Regio 7, Insula 6, Property 30, Room 52",
+  "scope": "room",
+  "lat": 40.7497695,
+  "lon": 14.4835913
+ },
+ "Volume_07_Page_0421_image_1": {
+  "name": "Regio 7, Insula 10, Property 3, Room t",
+  "scope": "room",
+  "lat": 40.7498817,
+  "lon": 14.4862053
+ },
+ "Volume_07_Page_0524_image_1": {
+  "name": "Regio 7, Insula 12, Property 18, Room a",
+  "scope": "room",
+  "lat": 40.7502537,
+  "lon": 14.4867939
+ },
+ "Volume_07_Page_0394_image_1": {
+  "name": "Regio 7, Insula 10, Property 3, Room c",
+  "scope": "room",
+  "lat": 40.7497985,
+  "lon": 14.4858882
+ },
+ "Volume_07_Page_0283_image_1": {
+  "name": "Regio 7, Insula 7",
+  "scope": "insula",
+  "lat": 40.7492354,
+  "lon": 14.4841834
+ },
+ "Volume_07_Page_0517_image_1": {
+  "name": "Regio 7, Insula 12",
+  "scope": "insula",
+  "lat": 40.7502647,
+  "lon": 14.4861537
+ },
+ "Volume_07_Page_0489_image_1": {
+  "name": "Regio 7, Insula 12, Property 11, Room a",
+  "scope": "room",
+  "lat": 40.7504287,
+  "lon": 14.4862131
+ },
+ "Volume_07_Page_0474_image_3": {
+  "name": "Regio 7, Insula 11, Property 11, Room y",
+  "scope": "room",
+  "lat": 40.7499667,
+  "lon": 14.4866497
+ },
+ "Volume_07_Page_0333_image_4": {
+  "name": "Regio 7, Insula 9, Property 7, Room c",
+  "scope": "room",
+  "lat": 40.7499397,
+  "lon": 14.4852977
+ },
+ "Volume_07_Page_0451_image_3": {
+  "name": "Regio 7, Insula 11, Property 6, Room i",
+  "scope": "room",
+  "lat": 40.7498333,
+  "lon": 14.4865881
+ },
+ "Volume_07_Page_0308_image_3": {
+  "name": "Regio 7, Insula 8, Property 1, Room b",
+  "scope": "room",
+  "lat": 40.749947,
+  "lon": 14.4844713
+ },
+ "Volume_07_Page_0554_image_3": {
+  "name": "Regio 7, Insula 12, Property 22, Room f",
+  "scope": "room",
+  "lat": 40.7502009,
+  "lon": 14.4862961
+ },
+ "Volume_07_Page_0782_image_2": {
+  "name": "Regio 7, Insula 15, Property 4, Room c",
+  "scope": "room",
+  "lat": 40.7491698,
+  "lon": 14.4838667
+ },
+ "Volume_07_Page_0632_image_1": {
+  "name": "Regio 7, Insula 13, Property 4, Room i",
+  "scope": "room",
+  "lat": 40.7494522,
+  "lon": 14.4862628
+ },
+ "Volume_07_Page_0735_image_1": {
+  "name": "Regio 7, Insula 15, Property 2, Room t",
+  "scope": "room",
+  "lat": 40.7491466,
+  "lon": 14.4835108
+ },
+ "Volume_07_Page_0694_image_1": {
+  "name": "Regio 7, Insula 14, Property 9, Room 15",
+  "scope": "room",
+  "lat": 40.7497943,
+  "lon": 14.4868938
+ },
+ "Volume_07_Page_0807_image_1": {
+  "name": "Regio 7, Insula 15, Property 8, Room h",
+  "scope": "room",
+  "lat": 40.7493397,
+  "lon": 14.4838482
+ },
+ "Volume_07_Page_0731_image_3": {
+  "name": "Regio 7, Insula 15, Property 2, Room k",
+  "scope": "room",
+  "lat": 40.7490438,
+  "lon": 14.4835198
+ },
+ "Volume_07_Page_0583_image_3": {
+  "name": "Regio 7, Insula 12, Property 26, Room k",
+  "scope": "room",
+  "lat": 40.7502994,
+  "lon": 14.4861075
+ },
+ "Volume_07_Page_0751_image_1": {
+  "name": "Regio 7, Insula 15, Property 2, Room z",
+  "scope": "room",
+  "lat": 40.7491474,
+  "lon": 14.4833619
+ },
+ "Volume_07_Page_0664_image_1": {
+  "name": "Regio 7, Insula 14, Property 5, Room 1",
+  "scope": "room",
+  "lat": 40.7495128,
+  "lon": 14.4867575
+ },
+ "Volume_07_Page_0951_image_1": {
+  "name": "Regio 7, Insula 16, Property 22, Room 2",
+  "scope": "room",
+  "lat": 40.7500915,
+  "lon": 14.4831024
+ },
+ "Volume_07_Page_0874_image_2": {
+  "name": "Regio 7, Insula 16",
+  "scope": "insula",
+  "lat": 40.7490903,
+  "lon": 14.4830872
+ },
+ "Volume_07_Page_0995_image_1": {
+  "name": "Regio 7, Insula 16, Property 22, Room 32",
+  "scope": "room",
+  "lat": 40.7497304,
+  "lon": 14.4832806
+ },
+ "Volume_07_Page_1025_image_1": {
+  "name": "Regio 7, Insula 16",
+  "scope": "insula",
+  "lat": 40.7490903,
+  "lon": 14.4830872
+ },
+ "Volume_07_Page_1000_image_1": {
+  "name": "Regio 7, Insula 16, Property 22, Room 33",
+  "scope": "room",
+  "lat": 40.749759,
+  "lon": 14.4832549
+ },
+ "Volume_07_Page_1068_image_2": {
+  "name": "Regio 7, Insula 16",
+  "scope": "insula",
+  "lat": 40.7490903,
+  "lon": 14.4830872
+ },
+ "Volume_07_Page_0828_image_3": {
+  "name": "Regio 7, Insula 15, Property 12, Room b",
+  "scope": "room",
+  "lat": 40.7494779,
+  "lon": 14.4837064
+ },
+ "Volume_07_Page_0897_image_1": {
+  "name": "Regio 7, Insula 16, Property 17, Room 8",
+  "scope": "room",
+  "lat": 40.7496693,
+  "lon": 14.4833381
+ },
+ "Volume_07_Page_1062_image_1": {
+  "name": "Regio 7, Insula 16",
+  "scope": "insula",
+  "lat": 40.7490903,
+  "lon": 14.4830872
+ },
+ "Volume_07_Page_0969_image_1": {
+  "name": "Regio 7, Insula 16, Property 22, Room 23",
+  "scope": "room",
+  "lat": 40.7497962,
+  "lon": 14.4833404
+ },
+ "Volume_08_Page_0179_image_1": {
+  "name": "Regio 8, Insula 2, Property 23, Room f",
+  "scope": "room",
+  "lat": 40.7481642,
+  "lon": 14.4859863
+ },
+ "Volume_08_Page_0077_image_1": {
+  "name": "Regio 8, Insula 2, Property 14, Room b",
+  "scope": "room",
+  "lat": 40.7482557,
+  "lon": 14.4855432
+ },
+ "Volume_08_Page_0088_image_1": {
+  "name": "Regio 8, Insula 2, Property 14, Room k",
+  "scope": "room",
+  "lat": 40.748196,
+  "lon": 14.4853502
+ },
+ "Volume_08_Page_0019_image_1": {
+  "name": "Regio 8, Insula 1, Property 1, Room 3",
+  "scope": "room",
+  "lat": 40.7486014,
+  "lon": 14.4841382
+ },
+ "Volume_08_Page_0201_image_2": {
+  "name": "Regio 8, Insula 2",
+  "scope": "insula",
+  "lat": 40.7482727,
+  "lon": 14.4851172
+ },
+ "Volume_08_Page_0045_image_1": {
+  "name": "Regio 8, Insula 2, Property 1, Room n",
+  "scope": "room",
+  "lat": 40.7484198,
+  "lon": 14.4846344
+ },
+ "Volume_08_Page_0110_image_2": {
+  "name": "Regio 8, Insula 2",
+  "scope": "insula",
+  "lat": 40.7482727,
+  "lon": 14.4851172
+ },
+ "Volume_07_Page_1117_image_2": {
+  "name": "Regio 7, Insula 16",
+  "scope": "insula",
+  "lat": 40.7490903,
+  "lon": 14.4830872
+ },
+ "Volume_08_Page_0182_image_1": {
+  "name": "Regio 8, Insula 2, Property 23, Room g",
+  "scope": "room",
+  "lat": 40.7482032,
+  "lon": 14.4860996
+ },
+ "Volume_08_Page_0050_image_3": {
+  "name": "Regio 8, Insula 2",
+  "scope": "insula",
+  "lat": 40.7482727,
+  "lon": 14.4851172
+ },
+ "Volume_08_Page_0455_image_3": {
+  "name": "Regio 8, Insula 4, Property 4, Room 1",
+  "scope": "room",
+  "lat": 40.7495721,
+  "lon": 14.4874842
+ },
+ "Volume_08_Page_0481_image_1": {
+  "name": "Regio 8, Insula 4, Property 4, Room 10",
+  "scope": "room",
+  "lat": 40.7494566,
+  "lon": 14.487539
+ },
+ "Volume_08_Page_0498_image_1": {
+  "name": "Regio 8, Insula 4, Property 4, Room 31",
+  "scope": "room",
+  "lat": 40.7492551,
+  "lon": 14.4876777
+ },
+ "Volume_08_Page_0285_image_2": {
+  "name": "Regio 8, Insula 2",
+  "scope": "insula",
+  "lat": 40.7482727,
+  "lon": 14.4851172
+ },
+ "Volume_08_Page_0361_image_1": {
+  "name": "Regio 8, Insula 3, Property 4",
+  "scope": "property",
+  "lat": 40.7489191,
+  "lon": 14.4857859
+ },
+ "Volume_08_Page_0233_image_2": {
+  "name": "Regio 8, Insula 2, Property 28, Room s",
+  "scope": "room",
+  "lat": 40.7483575,
+  "lon": 14.486349
+ },
+ "Volume_08_Page_0335_image_1": {
+  "name": "Regio 8, Insula 2, Property 39, Room v",
+  "scope": "room",
+  "lat": 40.7483051,
+  "lon": 14.4873766
+ },
+ "Volume_08_Page_0290_image_1": {
+  "name": "Regio 8, Insula 2",
+  "scope": "insula",
+  "lat": 40.7482727,
+  "lon": 14.4851172
+ },
+ "Volume_08_Page_0406_image_1": {
+  "name": "Regio 8, Insula 3, Property 14, Room 11",
+  "scope": "room",
+  "lat": 40.7484904,
+  "lon": 14.4861541
+ },
+ "Volume_08_Page_0492_image_3": {
+  "name": "Regio 8, Insula 4, Property 4, Room 26",
+  "scope": "room",
+  "lat": 40.7494382,
+  "lon": 14.4874777
+ },
+ "Volume_08_Page_0749_image_1": {
+  "name": "Regio 8, Insula 7, Property 28",
+  "scope": "property",
+  "lat": 40.7491116,
+  "lon": 14.4882779
+ },
+ "Volume_08_Page_0720_image_2": {
+  "name": "Regio 8, Insula 7, Property 24",
+  "scope": "property",
+  "lat": 40.7491581,
+  "lon": 14.4887929
+ },
+ "Volume_08_Page_0685_image_1": {
+  "name": "Regio 8, Insula 6, Property 1, Room s",
+  "scope": "room",
+  "lat": 40.7487433,
+  "lon": 14.4863814
+ },
+ "Volume_08_Page_0779_image_2": {
+  "name": "Regio 8, Insula 7, Property 28",
+  "scope": "property",
+  "lat": 40.7491116,
+  "lon": 14.4882779
+ },
+ "Volume_08_Page_0609_image_3": {
+  "name": "Regio 8, Insula 5",
+  "scope": "insula",
+  "lat": 40.7491237,
+  "lon": 14.4867973
+ },
+ "Volume_08_Page_0679_image_3": {
+  "name": "Regio 8, Insula 6, Property 1, Room m",
+  "scope": "room",
+  "lat": 40.7486374,
+  "lon": 14.4864206
+ },
+ "Volume_08_Page_0592_image_1": {
+  "name": "Regio 8, Insula 5",
+  "scope": "insula",
+  "lat": 40.7491237,
+  "lon": 14.4867973
+ },
+ "Volume_08_Page_0609_image_4": {
+  "name": "Regio 8, Insula 5, Property 24, Room o",
+  "scope": "room",
+  "lat": 40.7492303,
+  "lon": 14.4868769
+ },
+ "Volume_08_Page_0549_image_2": {
+  "name": "Regio 8, Insula 5",
+  "scope": "insula",
+  "lat": 40.7491237,
+  "lon": 14.4867973
+ },
+ "Volume_08_Page_0725_image_2": {
+  "name": "Regio 8, Insula 7, Property 24",
+  "scope": "property",
+  "lat": 40.7491581,
+  "lon": 14.4887929
+ },
+ "Volume_08_Page_0882_image_2": {
+  "name": "Regio 9, Insula 1, Property 7, Room e",
+  "scope": "room",
+  "lat": 40.7502886,
+  "lon": 14.4879478
+ },
+ "Volume_08_Page_0862_image_2": {
+  "name": "Regio 9, Insula 1",
+  "scope": "insula",
+  "lat": 40.750309,
+  "lon": 14.4881779
+ },
+ "Volume_08_Page_1010_image_1": {
+  "name": "Regio 9, Insula 1, Property 22, Room b",
+  "scope": "room",
+  "lat": 40.7502587,
+  "lon": 14.4884248
+ },
+ "Volume_08_Page_0860_image_1": {
+  "name": "Regio 9, Insula 1, Property 3, Room e",
+  "scope": "room",
+  "lat": 40.7503713,
+  "lon": 14.48775
+ },
+ "Volume_08_Page_1041_image_1": {
+  "name": "Regio 9, Insula 1, Property 22, Room t",
+  "scope": "room",
+  "lat": 40.7505154,
+  "lon": 14.488399
+ },
+ "Volume_08_Page_0863_image_2": {
+  "name": "Regio 9, Insula 1",
+  "scope": "insula",
+  "lat": 40.750309,
+  "lon": 14.4881779
+ },
+ "Volume_08_Page_0934_image_3": {
+  "name": "Regio 9, Insula 1, Property 20, Room n",
+  "scope": "room",
+  "lat": 40.7501469,
+  "lon": 14.4882151
+ },
+ "Volume_08_Page_1008_image_2": {
+  "name": "Regio 9, Insula 1, Property 22, Room b",
+  "scope": "room",
+  "lat": 40.7502587,
+  "lon": 14.4884248
+ },
+ "Volume_08_Page_0788_image_2": {
+  "name": "Regio 8, Insula 7, Property 28, Room 2",
+  "scope": "room",
+  "lat": 40.7491449,
+  "lon": 14.4882934
+ },
+ "Volume_08_Page_0791_image_1": {
+  "name": "Regio 8, Insula 7, Property 28, Room 3",
+  "scope": "room",
+  "lat": 40.7491287,
+  "lon": 14.4882593
+ },
+ "Volume_01_Page_0767_image_1": {
+  "name": "Regio 1, Insula 7, Property 19, Room c",
+  "scope": "room",
+  "lat": 40.750132,
+  "lon": 14.4900214
+ },
+ "Volume_01_Page_0882_image_1": {
+  "name": "Regio 1, Insula 8, Property 17, Room 14",
+  "scope": "room",
+  "lat": 40.750266,
+  "lon": 14.4902762
+ },
+ "Volume_01_Page_0820_image_1": {
+  "name": "Regio 1, Insula 8, Property 8, Room 10",
+  "scope": "room",
+  "lat": 40.7506933,
+  "lon": 14.490334
+ },
+ "Volume_01_Page_0717_image_3": {
+  "name": "Regio 1, Insula 7",
+  "scope": "insula",
+  "lat": 40.7502885,
+  "lon": 14.4899336
+ },
+ "Volume_01_Page_0738_image_2": {
+  "name": "Regio 1, Insula 7, Property 18, Room c",
+  "scope": "room",
+  "lat": 40.750093,
+  "lon": 14.4900943
+ },
+ "Volume_01_Page_0641_image_1": {
+  "name": "Regio 1, Insula 7",
+  "scope": "insula",
+  "lat": 40.7502885,
+  "lon": 14.4899336
+ },
+ "Volume_01_Page_0630_image_2": {
+  "name": "Regio 1, Insula 7",
+  "scope": "insula",
+  "lat": 40.7502885,
+  "lon": 14.4899336
+ },
+ "Volume_01_Page_0646_image_3": {
+  "name": "Regio 1, Insula 7",
+  "scope": "insula",
+  "lat": 40.7502885,
+  "lon": 14.4899336
+ },
+ "Volume_01_Page_0893_image_2": {
+  "name": "Regio 1, Insula 8, Property 17, Room 15",
+  "scope": "room",
+  "lat": 40.7502331,
+  "lon": 14.490284
+ },
+ "Volume_01_Page_0777_image_1": {
+  "name": "Regio 1, Insula 7, Property 19, Room e",
+  "scope": "room",
+  "lat": 40.7501637,
+  "lon": 14.4901265
+ },
+ "Volume_09_Page_0200_image_1": {
+  "name": "Regio 9, Insula 3, Property 5, Room 6",
+  "scope": "room",
+  "lat": 40.7510666,
+  "lon": 14.4869166
+ },
+ "Volume_08_Page_1110_image_1": {
+  "name": "Regio 9, Insula 2, Property 10, Room i",
+  "scope": "room",
+  "lat": 40.7506112,
+  "lon": 14.487775
+ },
+ "Volume_09_Page_0032_image_2": {
+  "name": "Regio 9, Insula 2, Property 16, Room k",
+  "scope": "room",
+  "lat": 40.7506693,
+  "lon": 14.4879558
+ },
+ "Volume_08_Page_1089_image_1": {
+  "name": "Regio 9, Insula 2, Property 9, Room a",
+  "scope": "room",
+  "lat": 40.7504982,
+  "lon": 14.4875123
+ },
+ "Volume_09_Page_0080_image_2": {
+  "name": "Regio 9, Insula 2",
+  "scope": "insula",
+  "lat": 40.7507368,
+  "lon": 14.4876795
+ },
+ "Volume_09_Page_0023_image_2": {
+  "name": "Regio 9, Insula 2, Property 16, Room e",
+  "scope": "room",
+  "lat": 40.7507363,
+  "lon": 14.4881071
+ },
+ "Volume_09_Page_0009_image_1": {
+  "name": "Regio 9, Insula 2, Property 16, Room b",
+  "scope": "room",
+  "lat": 40.7506381,
+  "lon": 14.4880453
+ },
+ "Volume_09_Page_0237_image_2": {
+  "name": "Regio 9, Insula 3, Property 5, Room 8",
+  "scope": "room",
+  "lat": 40.7510186,
+  "lon": 14.4870681
+ },
+ "Volume_09_Page_0043_image_1": {
+  "name": "Regio 9, Insula 2, Property 17, Room b",
+  "scope": "room",
+  "lat": 40.7508283,
+  "lon": 14.4880246
+ },
+ "Volume_09_Page_0238_image_1": {
+  "name": "Regio 9, Insula 3, Property 5, Room 8",
+  "scope": "room",
+  "lat": 40.7510186,
+  "lon": 14.4870681
+ },
+ "Volume_09_Page_0355_image_1": {
+  "name": "Regio 9, Insula 3, Property 19, Room e",
+  "scope": "room",
+  "lat": 40.7511226,
+  "lon": 14.4875767
+ },
+ "Volume_09_Page_0482_image_3": {
+  "name": "Regio 9, Insula 5, Property 6, Room r",
+  "scope": "room",
+  "lat": 40.7518025,
+  "lon": 14.4873325
+ },
+ "Volume_09_Page_0404_image_1": {
+  "name": "Regio 9, Insula 5, Property 6",
+  "scope": "property",
+  "lat": 40.7518106,
+  "lon": 14.4873734
+ },
+ "Volume_09_Page_0445_image_3": {
+  "name": "Regio 9, Insula 5, Property 6, Room i",
+  "scope": "room",
+  "lat": 40.7518726,
+  "lon": 14.4873131
+ },
+ "Volume_09_Page_0433_image_2": {
+  "name": "Regio 9, Insula 5, Property 6, Room h",
+  "scope": "room",
+  "lat": 40.7518985,
+  "lon": 14.487253
+ },
+ "Volume_09_Page_0371_image_2": {
+  "name": "Regio 9, Insula 5",
+  "scope": "insula",
+  "lat": 40.7518323,
+  "lon": 14.487421
+ },
+ "Volume_09_Page_0500_image_1": {
+  "name": "Regio 9, Insula 5, Property 9, Room i",
+  "scope": "room",
+  "lat": 40.7518821,
+  "lon": 14.4874219
+ },
+ "Volume_09_Page_0397_image_1": {
+  "name": "Regio 9, Insula 5",
+  "scope": "insula",
+  "lat": 40.7518323,
+  "lon": 14.487421
+ },
+ "Volume_09_Page_0482_image_2": {
+  "name": "Regio 9, Insula 5, Property 6, Room r",
+  "scope": "room",
+  "lat": 40.7518025,
+  "lon": 14.4873325
+ },
+ "Volume_09_Page_0389_image_4": {
+  "name": "Regio 9, Insula 5",
+  "scope": "insula",
+  "lat": 40.7518323,
+  "lon": 14.487421
+ },
+ "Volume_09_Page_0603_image_1": {
+  "name": "Regio 9, Insula 5, Property 14, Room b",
+  "scope": "room",
+  "lat": 40.7518681,
+  "lon": 14.4876626
+ },
+ "Volume_09_Page_0777_image_2": {
+  "name": "Regio 9, Insula 7, Property 7",
+  "scope": "property",
+  "lat": 40.7503887,
+  "lon": 14.4890418
+ },
+ "Volume_09_Page_0583_image_1": {
+  "name": "Regio 9, Insula 5, Property 11, Room k",
+  "scope": "room",
+  "lat": 40.7519929,
+  "lon": 14.4874973
+ },
+ "Volume_09_Page_0759_image_2": {
+  "name": "Regio 9, Insula 6",
+  "scope": "insula",
+  "lat": 40.751414,
+  "lon": 14.4877726
+ },
+ "Volume_09_Page_0772_image_1": {
+  "name": "Regio 9, Insula 7, Property 1",
+  "scope": "property",
+  "lat": 40.7504949,
+  "lon": 14.4892831
+ },
+ "Volume_09_Page_0611_image_2": {
+  "name": "Regio 9, Insula 5, Property 14, Room c",
+  "scope": "room",
+  "lat": 40.7519263,
+  "lon": 14.4877147
+ },
+ "Volume_09_Page_0551_image_2": {
+  "name": "Regio 9, Insula 5, Property 11, Room f",
+  "scope": "room",
+  "lat": 40.7520151,
+  "lon": 14.4874686
+ },
+ "Volume_09_Page_0793_image_1": {
+  "name": "Regio 9, Insula 7, Property 16, Room b",
+  "scope": "room",
+  "lat": 40.7506118,
+  "lon": 14.4884059
+ },
+ "Volume_09_Page_0669_image_1": {
+  "name": "Regio 9, Insula 5, Property 14, Room f",
+  "scope": "room",
+  "lat": 40.7519018,
+  "lon": 14.4875993
+ },
+ "Volume_09_Page_0823_image_3": {
+  "name": "Regio 9, Insula 7",
+  "scope": "insula",
+  "lat": 40.7508755,
+  "lon": 14.488246
+ },
+ "Volume_09_Page_0990_image_2": {
+  "name": "Regio 9, Insula 8, Property 3, Room 26",
+  "scope": "room",
+  "lat": 40.751888,
+  "lon": 14.4880392
+ },
+ "Volume_09_Page_1009_image_2": {
+  "name": "Regio 9, Insula 8, Property 3, Room 33",
+  "scope": "room",
+  "lat": 40.751863,
+  "lon": 14.4882314
+ },
+ "Volume_09_Page_0861_image_2": {
+  "name": "Regio 9, Insula 7, Property 20, Room 1",
+  "scope": "room",
+  "lat": 40.750909,
+  "lon": 14.4880466
+ },
+ "Volume_09_Page_1007_image_1": {
+  "name": "Regio 9, Insula 8, Property 3, Room 33",
+  "scope": "room",
+  "lat": 40.751863,
+  "lon": 14.4882314
+ },
+ "Volume_09_Page_0909_image_2": {
+  "name": "Regio 9, Insula 8, Property 3, Room 2",
+  "scope": "room",
+  "lat": 40.7522596,
+  "lon": 14.4879669
+ },
+ "Volume_09_Page_0877_image_2": {
+  "name": "Regio 9, Insula 7",
+  "scope": "insula",
+  "lat": 40.7508755,
+  "lon": 14.488246
+ },
+ "Volume_09_Page_1016_image_2": {
+  "name": "Regio 9, Insula 8, Property 3, Room 33",
+  "scope": "room",
+  "lat": 40.751863,
+  "lon": 14.4882314
+ },
+ "Volume_09_Page_0913_image_1": {
+  "name": "Regio 9, Insula 8, Property 3, Room 2",
+  "scope": "room",
+  "lat": 40.7522596,
+  "lon": 14.4879669
+ },
+ "Volume_09_Page_0963_image_2": {
+  "name": "Regio 9, Insula 8, Property 3, Room 8",
+  "scope": "room",
+  "lat": 40.7522191,
+  "lon": 14.4880855
+ },
+ "Volume_09_Page_0896_image_2": {
+  "name": "Regio 9, Insula 8, Property 1, Room 1",
+  "scope": "room",
+  "lat": 40.7521609,
+  "lon": 14.4875956
+ },
+ "Volume_10_Page_0213_image_1": {
+  "name": "Regio 9, Insula 13, Property 1, Room cc",
+  "scope": "room",
+  "lat": 40.7512461,
+  "lon": 14.490113
+ },
+ "Volume_09_Page_1097_image_1": {
+  "name": "Regio 9, Insula 8, Property 3, Room 49",
+  "scope": "room",
+  "lat": 40.7519064,
+  "lon": 14.4879273
+ },
+ "Volume_10_Page_0064_image_1": {
+  "name": "Regio 9, Insula 9, Property d",
+  "scope": "property",
+  "lat": 40.7520001,
+  "lon": 14.488456
+ },
+ "Volume_10_Page_0198_image_1": {
+  "name": "Regio 9, Insula 13, Property 1, Room o",
+  "scope": "room",
+  "lat": 40.7511253,
+  "lon": 14.4902629
+ },
+ "Volume_10_Page_0289_image_2": {
+  "name": "Regio 9, Insula 13, Property 1, Room hh",
+  "scope": "room",
+  "lat": 40.7513716,
+  "lon": 14.4901066
+ },
+ "Volume_10_Page_0204_image_1": {
+  "name": "Regio 9, Insula 13, Property 1, Room m",
+  "scope": "room",
+  "lat": 40.7510683,
+  "lon": 14.4902836
+ },
+ "Volume_10_Page_0172_image_1": {
+  "name": "Regio 9, Insula 12",
+  "scope": "insula",
+  "lat": 40.7508413,
+  "lon": 14.4899308
+ },
+ "Volume_10_Page_0201_image_1": {
+  "name": "Regio 9, Insula 13, Property 1, Room o",
+  "scope": "room",
+  "lat": 40.7511253,
+  "lon": 14.4902629
+ },
+ "Volume_10_Page_0128_image_2": {
+  "name": "Regio 9, Insula 9, Property 4, Room h",
+  "scope": "room",
+  "lat": 40.7523516,
+  "lon": 14.4882807
+ },
+ "Volume_10_Page_0231_image_1": {
+  "name": "Regio 9, Insula 13, Property 1, Room cc",
+  "scope": "room",
+  "lat": 40.7512461,
+  "lon": 14.490113
+ },
+ "Volume_10_Page_0341_image_1": {
+  "name": "Regio 9, Insula 13, Property 1, Room r",
+  "scope": "room",
+  "lat": 40.7510919,
+  "lon": 14.4902194
+ },
+ "Volume_10_Page_0451_image_1": {
+  "name": "Regio 9, Insula 14, Property 4, Room 15",
+  "scope": "room",
+  "lat": 40.7525063,
+  "lon": 14.4890088
+ },
+ "Volume_10_Page_0354_image_1": {
+  "name": "Regio 9, Insula 13, Property 1",
+  "scope": "property",
+  "lat": 40.7511688,
+  "lon": 14.4901801
+ },
+ "Volume_10_Page_0440_image_1": {
+  "name": "Regio 9, Insula 14, Property 4, Room 14",
+  "scope": "room",
+  "lat": 40.7524825,
+  "lon": 14.4890279
+ },
+ "Volume_10_Page_0472_image_2": {
+  "name": "Regio 9, Insula 14, Property 4, Room 23",
+  "scope": "room",
+  "lat": 40.752677,
+  "lon": 14.4890393
+ },
+ "Volume_10_Page_0438_image_2": {
+  "name": "Regio 9, Insula 14, Property 4, Room 13",
+  "scope": "room",
+  "lat": 40.7524578,
+  "lon": 14.4890477
+ },
+ "Volume_10_Page_0370_image_3": {
+  "name": "Regio 9, Insula 14, Property 4, Room b",
+  "scope": "room",
+  "lat": 40.7527431,
+  "lon": 14.4891094
+ },
+ "Volume_10_Page_0421_image_1": {
+  "name": "Regio 9, Insula 14, Property 4, Room 3",
+  "scope": "room",
+  "lat": 40.7524281,
+  "lon": 14.4892011
+ },
+ "Volume_10_Page_0410_image_1": {
+  "name": "Regio 9, Insula 14, Property 4, Room 3",
+  "scope": "room",
+  "lat": 40.7524281,
+  "lon": 14.4892011
+ },
+ "Volume_10_Page_0489_image_2": {
+  "name": "Regio 9, Insula 14, Property 4, Room 34",
+  "scope": "room",
+  "lat": 40.7527923,
+  "lon": 14.4889555
+ },
+ "Volume_02_Page_0140_image_1": {
+  "name": "Regio 1, Insula 9, Property 8, Room 2",
+  "scope": "room",
+  "lat": 40.7506659,
+  "lon": 14.4908175
+ },
+ "Volume_02_Page_0130_image_1": {
+  "name": "Regio 1, Insula 9, Property 5, Room 12",
+  "scope": "room",
+  "lat": 40.7508435,
+  "lon": 14.490729
+ },
+ "Volume_02_Page_0069_image_1": {
+  "name": "Regio 1, Insula 9, Property 5, Room 11",
+  "scope": "room",
+  "lat": 40.7508784,
+  "lon": 14.4907043
+ },
+ "Volume_02_Page_0091_image_1": {
+  "name": "Regio 1, Insula 9, Property 5, Room 11",
+  "scope": "room",
+  "lat": 40.7508784,
+  "lon": 14.4907043
+ },
+ "Volume_02_Page_0052_image_1": {
+  "name": "Regio 1, Insula 9, Property 5, Room 11",
+  "scope": "room",
+  "lat": 40.7508784,
+  "lon": 14.4907043
+ },
+ "Volume_02_Page_0127_image_1": {
+  "name": "Regio 1, Insula 9, Property 5, Room 12",
+  "scope": "room",
+  "lat": 40.7508435,
+  "lon": 14.490729
+ },
+ "Volume_02_Page_0164_image_2": {
+  "name": "Regio 1, Insula 9, Property 12, Room 11",
+  "scope": "room",
+  "lat": 40.7504505,
+  "lon": 14.4909429
+ },
+ "Volume_02_Page_0271_image_1": {
+  "name": "Regio 1, Insula 10, Property 4, Room c",
+  "scope": "room",
+  "lat": 40.7496692,
+  "lon": 14.4899113
+ },
+ "Volume_01_Page_0906_image_1": {
+  "name": "Regio 1, Insula 8, Property 17, Room 18",
+  "scope": "room",
+  "lat": 40.7503361,
+  "lon": 14.490432
+ },
+ "Volume_02_Page_0286_image_2": {
+  "name": "Regio 1, Insula 10, Property 4, Room 7",
+  "scope": "room",
+  "lat": 40.7497732,
+  "lon": 14.4897136
+ },
+ "Volume_02_Page_0514_image_1": {
+  "name": "Regio 1, Insula 11, Property 1, Room 5",
+  "scope": "room",
+  "lat": 40.7509691,
+  "lon": 14.4907621
+ },
+ "Volume_02_Page_0478_image_1": {
+  "name": "Regio 1, Insula 10",
+  "scope": "insula",
+  "lat": 40.7496637,
+  "lon": 14.4898829
+ },
+ "Volume_02_Page_0580_image_1": {
+  "name": "Regio 1, Insula 11, Property 10, Room 8",
+  "scope": "room",
+  "lat": 40.7504895,
+  "lon": 14.4912141
+ },
+ "Volume_02_Page_0315_image_2": {
+  "name": "Regio 1, Insula 10, Property 4, Room 11",
+  "scope": "room",
+  "lat": 40.7497362,
+  "lon": 14.4897442
+ },
+ "Volume_02_Page_0395_image_3": {
+  "name": "Regio 1, Insula 10, Property 4, Room 48",
+  "scope": "room",
+  "lat": 40.7495211,
+  "lon": 14.4898767
+ },
+ "Volume_02_Page_0337_image_1": {
+  "name": "Regio 1, Insula 10, Property 4, Room 18",
+  "scope": "room",
+  "lat": 40.7497098,
+  "lon": 14.4900936
+ },
+ "Volume_02_Page_0486_image_1": {
+  "name": "Regio 1, Insula 10",
+  "scope": "insula",
+  "lat": 40.7496637,
+  "lon": 14.4898829
+ },
+ "Volume_02_Page_0352_image_3": {
+  "name": "Regio 1, Insula 10, Property 4, Room 18",
+  "scope": "room",
+  "lat": 40.7497098,
+  "lon": 14.4900936
+ },
+ "Volume_02_Page_0663_image_1": {
+  "name": "Regio 1, Insula 11, Property 16, Room 6",
+  "scope": "room",
+  "lat": 40.7508295,
+  "lon": 14.4908329
+ },
+ "Volume_02_Page_0377_image_1": {
+  "name": "Regio 1, Insula 10, Property 4, Room 46",
+  "scope": "room",
+  "lat": 40.7495712,
+  "lon": 14.4898167
+ },
+ "Volume_02_Page_0953_image_2": {
+  "name": "Regio 1, Insula 14",
+  "scope": "insula",
+  "lat": 40.750414,
+  "lon": 14.492415
+ },
+ "Volume_02_Page_0841_image_3": {
+  "name": "Regio 1, Insula 12, Property 16, Room 7",
+  "scope": "room",
+  "lat": 40.7509787,
+  "lon": 14.491415
+ },
+ "Volume_02_Page_0677_image_2": {
+  "name": "Regio 1, Insula 11, Property 17, Room 4",
+  "scope": "room",
+  "lat": 40.7509471,
+  "lon": 14.4908891
+ },
+ "Volume_02_Page_0984_image_3": {
+  "name": "Regio 1, Insula 16, Property 3, Room 1",
+  "scope": "room",
+  "lat": 40.7503545,
+  "lon": 14.4913782
+ },
+ "Volume_02_Page_0958_image_1": {
+  "name": "Regio 1, Insula 15, Property 1, Room 4",
+  "scope": "room",
+  "lat": 40.7505546,
+  "lon": 14.4919548
+ },
+ "Volume_02_Page_0790_image_2": {
+  "name": "Regio 1, Insula 12, Property 9, Room 5",
+  "scope": "room",
+  "lat": 40.7506808,
+  "lon": 14.491695
+ },
+ "Volume_02_Page_0907_image_2": {
+  "name": "Regio 1, Insula 13, Property 9, Room 1",
+  "scope": "room",
+  "lat": 40.7511378,
+  "lon": 14.4920556
+ },
+ "Volume_02_Page_0766_image_1": {
+  "name": "Regio 1, Insula 12, Property 8, Room 9",
+  "scope": "room",
+  "lat": 40.7507925,
+  "lon": 14.4917633
+ },
+ "Volume_02_Page_0777_image_1": {
+  "name": "Regio 1, Insula 12, Property 8, Room 12",
+  "scope": "room",
+  "lat": 40.7507572,
+  "lon": 14.49171
+ },
+ "Volume_02_Page_0669_image_2": {
+  "name": "Regio 1, Insula 11, Property 17, Room 4",
+  "scope": "room",
+  "lat": 40.7509471,
+  "lon": 14.4908891
+ },
+ "Volume_03_Page_0014_image_1": {
+  "name": "Regio 2, Insula 1, Property 10, Room 3",
+  "scope": "room",
+  "lat": 40.7511253,
+  "lon": 14.4921787
+ },
+ "Volume_03_Page_0159_image_1": {
+  "name": "Regio 2, Insula 3, Property 3, Room 11",
+  "scope": "room",
+  "lat": 40.7517609,
+  "lon": 14.4929239
+ },
+ "Volume_03_Page_0203_image_1": {
+  "name": "Regio 2, Insula 4, Property 3, Room 29",
+  "scope": "room",
+  "lat": 40.7521069,
+  "lon": 14.4932616
+ },
+ "Volume_03_Page_0008_image_2": {
+  "name": "Regio 2, Insula 1, Property 5, Room 1",
+  "scope": "room",
+  "lat": 40.7516524,
+  "lon": 14.4920792
+ },
+ "Volume_03_Page_0103_image_2": {
+  "name": "Regio 2, Insula 2, Property 2, Room k",
+  "scope": "room",
+  "lat": 40.7516384,
+  "lon": 14.492654
+ },
+ "Volume_03_Page_0246_image_1": {
+  "name": "Regio 2, Insula 4, Property 3, Room 24",
+  "scope": "room",
+  "lat": 40.7520765,
+  "lon": 14.4930708
+ },
+ "Volume_03_Page_0059_image_1": {
+  "name": "Regio 2, Insula 2, Property 2, Room d",
+  "scope": "room",
+  "lat": 40.7515647,
+  "lon": 14.4923399
+ },
+ "Volume_03_Page_0147_image_1": {
+  "name": "Regio 2, Insula 3, Property 3, Room 10",
+  "scope": "room",
+  "lat": 40.7518224,
+  "lon": 14.4929261
+ },
+ "Volume_03_Page_0268_image_2": {
+  "name": "Regio 2, Insula 4, Property 3, Room 86",
+  "scope": "room",
+  "lat": 40.7518113,
+  "lon": 14.4932249
+ },
+ "Volume_03_Page_0138_image_1": {
+  "name": "Regio 2, Insula 3, Property 3, Room 8",
+  "scope": "room",
+  "lat": 40.7517633,
+  "lon": 14.4928466
+ },
+ "Volume_03_Page_0589_image_1": {
+  "name": "Regio 5, Insula 1, Property 23, Room i",
+  "scope": "room",
+  "lat": 40.752087,
+  "lon": 14.4859032
+ },
+ "Volume_03_Page_0293_image_2": {
+  "name": "Regio 2, Insula 4, Property 3, Room 93",
+  "scope": "room",
+  "lat": 40.7516945,
+  "lon": 14.4933523
+ },
+ "Volume_03_Page_0459_image_3": {
+  "name": "Regio 3, Insula 4, Property 4, Room b",
+  "scope": "room",
+  "lat": 40.7518869,
+  "lon": 14.4916762
+ },
+ "Volume_03_Page_0350_image_1": {
+  "name": "Regio 3, Insula 2, Property 1, Room d",
+  "scope": "room",
+  "lat": 40.7513591,
+  "lon": 14.4911161
+ },
+ "Volume_03_Page_0525_image_1": {
+  "name": "Regio 5, Insula 1, Property 7, Room b",
+  "scope": "room",
+  "lat": 40.751966,
+  "lon": 14.4862531
+ },
+ "Volume_03_Page_0398_image_1": {
+  "name": "Regio 3, Insula 3, Property 6",
+  "scope": "property",
+  "lat": 40.7516452,
+  "lon": 14.491614
+ },
+ "Volume_03_Page_0382_image_1": {
+  "name": "Regio 3, Insula 2, Property 1, Room p",
+  "scope": "room",
+  "lat": 40.751381,
+  "lon": 14.4909393
+ },
+ "Volume_03_Page_0560_image_1": {
+  "name": "Regio 5, Insula 1, Property 18, Room p",
+  "scope": "room",
+  "lat": 40.7523314,
+  "lon": 14.4858693
+ },
+ "Volume_03_Page_0304_image_1": {
+  "name": "Regio 2, Insula 4, Property 3, Room 97",
+  "scope": "room",
+  "lat": 40.7516859,
+  "lon": 14.4934304
+ },
+ "Volume_03_Page_0410_image_1": {
+  "name": "Regio 3, Insula 4, Property 2, Room 4",
+  "scope": "room",
+  "lat": 40.751793,
+  "lon": 14.4918825
+ },
+ "Volume_03_Page_0734_image_1": {
+  "name": "Regio 5, Insula 2, Property i, Room v",
+  "scope": "room",
+  "lat": 40.7523031,
+  "lon": 14.4865621
+ },
+ "Volume_03_Page_0739_image_2": {
+  "name": "Regio 5, Insula 2, Property 1, Room w",
+  "scope": "room",
+  "lat": 40.752064,
+  "lon": 14.4863877
+ },
+ "Volume_03_Page_0820_image_1": {
+  "name": "Regio 5, Insula 2, Property 4, Room u",
+  "scope": "room",
+  "lat": 40.7521934,
+  "lon": 14.4865674
+ },
+ "Volume_03_Page_0806_image_3": {
+  "name": "Regio 5, Insula 2",
+  "scope": "insula",
+  "lat": 40.7522933,
+  "lon": 14.486641
+ },
+ "Volume_03_Page_0672_image_1": {
+  "name": "Regio 5, Insula 2",
+  "scope": "insula",
+  "lat": 40.7522933,
+  "lon": 14.486641
+ },
+ "Volume_03_Page_0617_image_3": {
+  "name": "Regio 5, Insula 1",
+  "scope": "insula",
+  "lat": 40.7520222,
+  "lon": 14.4860378
+ },
+ "Volume_03_Page_0725_image_3": {
+  "name": "Regio 5, Insula 2, Property i, Room r",
+  "scope": "room",
+  "lat": 40.752402,
+  "lon": 14.4866331
+ },
+ "Volume_03_Page_0782_image_1": {
+  "name": "Regio 5, Insula 2, Property 1, Room p",
+  "scope": "room",
+  "lat": 40.7520124,
+  "lon": 14.4864572
+ },
+ "Volume_03_Page_0755_image_1": {
+  "name": "Regio 5, Insula 2",
+  "scope": "insula",
+  "lat": 40.7522933,
+  "lon": 14.486641
+ },
+ "Volume_03_Page_0618_image_2": {
+  "name": "Regio 5, Insula 1",
+  "scope": "insula",
+  "lat": 40.7520222,
+  "lon": 14.4860378
+ }
+}
