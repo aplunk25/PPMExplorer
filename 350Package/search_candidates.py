@@ -46,6 +46,8 @@ def main():
     parser.add_argument("--embeddings-dir", type=Path, default=DEFAULT_EMBEDDINGS_DIR)
     parser.add_argument("--output", type=Path,
                         help="Optional CSV output path (interactive mode appends query results)")
+    parser.add_argument("--json", action="store_true",
+                        help="Print machine-readable results for a single query")
     args = parser.parse_args()
 
     if not 0 <= args.image_radius <= 2:
@@ -196,7 +198,10 @@ def main():
     queries = [args.query] if args.query else None
     if queries:
         results = retrieve(queries[0])
-        show_results(queries[0], results)
+        if not args.json:
+            show_results(queries[0], results)
+        else:
+            print("JSON_RESULT=" + results.to_json(orient="records"))
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)
             results.to_csv(args.output, index=False)
