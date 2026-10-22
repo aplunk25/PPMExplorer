@@ -52,6 +52,23 @@ To set up the project locally, follow these steps:
 
   to open the application in your default browser.
 
+## Local CLIP sample search
+
+The home page searches the bundled `350Package/embeddings/random_samples` dataset with
+OpenCLIP ViT-B/32 (OpenAI weights). Install the Python dependencies before starting the web app:
+
+```bash
+python -m pip install -r 350Package/requirements.txt
+npm run dev
+```
+
+The first search loads the model and may download its weights. Set `PYTHON_EXECUTABLE` if your
+Python installation is not available as `python` (for example, to the path of your virtual
+environment's Python executable). The two similarity sliders set minimum cosine similarity;
+an image-caption pair is returned when either its image or its caption meets its threshold.
+
+This sample does not include location geometry, so search results are not plotted on the map.
+
 ## Contact
 
 For any inquiries, please contact the project owners:
