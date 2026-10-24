@@ -1,6 +1,6 @@
 # PPMExplorer
 
-PPMExplorer is a project aimed to drawing new insights from images and captions in the *Pompei: Pitture e Mosaic* (PPM) encyclopedia set. The project uses [Svelte](https://svelte.dev/) for building the web application, [Microsoft Azure AI Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) for generating image and caption feature vectors, and [Microsoft Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) for storing and indexing the data.
+PPMExplorer is a project aimed to drawing new insights from images and captions in the *Pompei: Pitture e Mosaic* (PPM) encyclopedia set. The project uses [Svelte](https://svelte.dev/) for building the web application, [Microsoft Azure AI Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) for generating image and caption feature vectors, and [Microsoft Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) for storing and indexing the data, as well as [OpenAI CLIP](https://openai.com/index/clip/) for Captions and Images. 
 
 ## Background
 
@@ -77,7 +77,7 @@ For any inquiries, please contact the project owners:
 | --- | --- |
 | Dr. David Fredrick | [dfredric@uark.edu](mailto:dfredric@uark.edu) |
 | Dr. Cindy Roulette | [cindy.e.roulette@gmail.com](mailto:cindy.e.roulette@gmail.com) |
-| Rafael Rasse | [rafaelrasse2@gmail.com](mailto:rafaelrasse2@gmail.com) |
-| Bethany Terry | [bethanyterry1122@gmail.com](mailto:bethanyterry1122@gmail.com) |
-| Shaun Bobbitt | [shaunbobbitt0@gmail.com](mailto:shaunbobbitt0@gmail.com) |
-| Cade DuPont | [cadedupont45@gmail.com](mailto:cadedupont45@@gmail.com) |
+| Alex Plunk | [acplunk@uark.edu](mailto:acplunk@uark.edu) |
+| Brodie Baugh | [bbaugh@uark.edu](mailto:bbaugh@uark.edu) |
+| Logan Davis | [logand@uark.edu](mailto:logand@uark.edu) |
+| Josh Godoy | [jgodoy@uark.edu](mailto:jgodoy@uark.edu) |
